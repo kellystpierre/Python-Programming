@@ -1,0 +1,9 @@
+# keep only python files and the gitignore itself
+*
+!.gitignore
+!*.py
+
+# ignore common junk
+**/~$*
+**/*.tmp
+**/*.log
